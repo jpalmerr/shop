@@ -19,4 +19,19 @@ def specialPrice(item: SKU): (Int, Int) = item match {
   case _ => (1, item.unitPrice) // no special offer
 }
 
+// access and calculate
 
+import scala.math.Integral.Implicits._
+
+10 /% 2
+11 /% 2
+val (quotient, remainder) = 11 /% 2
+
+def calculateItemCost(item: SKU, quantity: Int)(offer: (Int, Int)) :Int = {
+  val (quotient, remainder) = quantity /% offer._1
+  println(s"quotient: $quotient , remainder: $remainder")
+  val totalItemCost = quotient * offer._2 + remainder * item.unitPrice
+  totalItemCost
+}
+
+calculateItemCost(A, 7)(3, 120) // 290
