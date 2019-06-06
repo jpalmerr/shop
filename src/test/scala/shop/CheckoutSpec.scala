@@ -22,12 +22,12 @@ class CheckoutSpec extends WordSpec with Matchers {
     }
   }
 
-  "Calculate Item Cost" should {
-    "take an item and a special price, return the cost" in {
-      myCheckout.calculateItemCost(A, 7)(3, 130) should be(310)
-      myCheckout.calculateItemCost(B, 1)(2, 45) should be(30)
-    }
-  }
+//  "Calculate Item Cost" should {
+//    "take an item and a special price, return the cost" in {
+//      myCheckout.calculateItemCost(A, 7)(3, 130) should be(310)
+//      myCheckout.calculateItemCost(B, 1)(2, 45) should be(30)
+//    }
+//  }
 
   "Calculate Total Cost" should {
     "return an accurate value converted to pounds" in {
