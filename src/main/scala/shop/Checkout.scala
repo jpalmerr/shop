@@ -49,8 +49,15 @@ class Checkout(val stockKeepingUnit: SKU*) {
 
 object Checkout extends Checkout(A, B, C, D) with App {
 
-  println("Checkout")
+  println("Checkout ...")
 
   lazy val argsToSKUs: Map[String, SKU] = stockKeepingUnit.map(sku => (sku.toString, sku)).toMap
+
+  if (isUserInputValid(args)) {
+    val shoppingBasket: Seq[SKU] = args.map(item => argsToSKUs(item)).toSeq
+    val cost = calculateTotalCost(shoppingBasket)
+
+    println(s"total cost of items in shopping basket: £$cost")
+  }
 
 }

@@ -16,14 +16,6 @@ class CheckoutSpec extends WordSpec with Matchers {
     }
   }
 
-  // private function
-//  "Calculate Item Cost" should {
-//    "take an item and a special price, return the cost" in {
-//      userCheckout.calculateItemCost(A, 7)(3, 130) should be(310)
-//      userCheckout.calculateItemCost(B, 1)(2, 45) should be(30)
-//    }
-//  }
-
   "Calculate Total Cost" should {
     "return an accurate value converted to pounds" in {
       userCheckout.calculateTotalCost(shoppingBasket) should be(4.55)
@@ -41,9 +33,6 @@ class CheckoutSpec extends WordSpec with Matchers {
       userCheckout.parse("X") should be (Left("Unknown item in shopping basket: X"))
     }
   }
-
-
-//  def userInputValid(args: Array[String]): Boolean = {
 
   "User input" should {
     "return a true for A" in {
