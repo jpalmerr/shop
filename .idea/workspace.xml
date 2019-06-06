@@ -209,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.CheckoutSpec">
+  <component name="RunManager" selected="Application.Checkout">
     <configuration name="Checkout" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="shop.Checkout" />
       <module name="JamesShop" />
@@ -290,8 +290,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="ScalaTest.CheckoutSpec" />
         <item itemvalue="Application.Checkout" />
+        <item itemvalue="ScalaTest.CheckoutSpec" />
       </list>
     </recent_temporary>
   </component>

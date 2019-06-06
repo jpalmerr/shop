@@ -29,4 +29,8 @@ case class Checkout(shoppingBasket: Seq[SKU]) {
 
 object Checkout extends App {
   println("Checkout")
+  val shoppingBasket = Seq[SKU](A, A, A, A, A, A, A, B, B, B, B, C, C, D) // 455
+  val myCheckout = Checkout(shoppingBasket)
+
+  println(myCheckout.calculateTotalCost)
 }
