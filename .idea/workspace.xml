@@ -2,11 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0438b4f-4d9a-4417-a20b-58d2065378f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scrapbook.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scrapbook.sc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/shop/Checkout.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/shop/Checkout.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/shop/CheckoutSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/shop/CheckoutSpec.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/shop/Checkout$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/shop/Checkout$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/shop/Checkout$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/shop/Checkout$delayedInit$body.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/shop/Checkout.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/shop/Checkout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/shop/CheckoutSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/jamesshop_2.12-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/jamesshop_2.12-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/jamesshop/jamesshop_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/jamesshop/jamesshop_2.12/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/jamesshop/jamesshop_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/jamesshop/jamesshop_2.12/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/jamesshop-jamesshop_2.12-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/shop/CheckoutSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/shop/CheckoutSpec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/shop/Checkout.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state relative-caret-position="296">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -50,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/shop/CheckoutSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            <state relative-caret-position="455">
+              <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -89,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/scrapbook.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="38" selection-start-line="38" selection-end-line="38" selection-end-column="103" />
+            <state relative-caret-position="309">
+              <caret line="65" column="4" selection-start-line="56" selection-end-line="65" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -124,10 +154,10 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/scala/scrapbook.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/shop/package.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/shop/CheckoutSpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/scrapbook.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/shop/Checkout.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/shop/CheckoutSpec.scala" />
       </list>
     </option>
   </component>
@@ -363,29 +393,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559848564158</updated>
-      <workItem from="1559848568642" duration="4309000" />
+      <workItem from="1559848568642" duration="8280000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckoutSpec - 2019.06.06 at 20h 32m 49s.xml">
-      <configuration name="CheckoutSpec" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="CheckoutSpec - 2019.06.06 at 20h 51m 22s.xml">
-      <configuration name="CheckoutSpec" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="CheckoutSpec - 2019.06.06 at 21h 10m 39s.xml">
-      <configuration name="CheckoutSpec" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="CheckoutSpec - 2019.06.06 at 21h 19m 59s.xml">
       <configuration name="CheckoutSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="CheckoutSpec - 2019.06.06 at 21h 26m 26s.xml">
       <configuration name="CheckoutSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="CheckoutSpec - 2019.06.06 at 21h 28m 27s.xml">
+      <configuration name="CheckoutSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="CheckoutSpec - 2019.06.06 at 22h 08m 30s.xml">
+      <configuration name="CheckoutSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="CheckoutSpec - 2019.06.06 at 22h 10m 42s.xml">
+      <configuration name="CheckoutSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="CheckoutSpec - 2019.06.06 at 22h 21m 49s.xml">
+      <configuration name="CheckoutSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="CheckoutSpec - 2019.06.06 at 22h 23m 53s.xml">
+      <configuration name="CheckoutSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="CheckoutSpec - 2019.06.06 at 22h 24m 31s.xml">
+      <configuration name="CheckoutSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="CheckoutSpec - 2019.06.06 at 22h 30m 11s.xml">
+      <configuration name="CheckoutSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="CheckoutSpec - 2019.06.06 at 22h 31m 00s.xml">
+      <configuration name="CheckoutSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4309000" />
+    <option name="totallyTimeSpent" value="8280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -408,7 +453,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -470,13 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scrapbook.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="38" selection-start-line="38" selection-end-line="38" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/shop/package.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -484,17 +522,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scrapbook.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="65" column="4" selection-start-line="56" selection-end-line="65" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/shop/Checkout.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="296">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/shop/CheckoutSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        <state relative-caret-position="455">
+          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
         </state>
       </provider>
     </entry>

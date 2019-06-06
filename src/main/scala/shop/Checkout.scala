@@ -1,6 +1,8 @@
 package shop
 
-case class Checkout(shoppingBasket: Seq[SKU]) {
+class Checkout(val stockKeepingUnit: SKU*) {
+
+  val stockedItems: Seq[String] = stockKeepingUnit.map(_.toString)
 
   def specialPrice(item: SKU): (Quantity, Pence) = item match {
     case A => (3, 130)
@@ -16,9 +18,27 @@ case class Checkout(shoppingBasket: Seq[SKU]) {
     totalItemCost
   }
 
-  def calculateTotalCost: BigDecimal = {
-    val numberOfEachItem = shoppingBasket.groupBy(identity).mapValues(_.size)
+  def parse(item: String): Either[String, Boolean] = {
+    if (stockedItems.contains(item))
+      Right(true)
+    else
+      Left(s"Unknown item in shopping basket: ${item}")
+  }
 
+  def isUserInputValid(args: Array[String]): Boolean = {
+    for (item <- args) {
+      val result = parse(item)
+      if (result.isLeft) {
+        println(result.left.getOrElse("Exiting application!"))
+        System.exit(0)
+      }
+    }
+    true
+  }
+
+  def calculateTotalCost(items: Seq[SKU]): BigDecimal = {
+
+    val numberOfEachItem = items.groupBy(identity).mapValues(_.size)
     val itemsCost = numberOfEachItem.map(item => calculateItemCost(item._1, item._2)(specialPrice(item._1)))
     val totalCost = itemsCost.sum
     val totalCostPounds = BigDecimal(totalCost.toDouble / 100).setScale(2)
@@ -27,10 +47,10 @@ case class Checkout(shoppingBasket: Seq[SKU]) {
 
 }
 
-object Checkout extends App {
-  println("Checkout")
-  val shoppingBasket = Seq[SKU](A, A, A, A, A, A, A, B, B, B, B, C, C, D) // 455
-  val myCheckout = Checkout(shoppingBasket)
+object Checkout extends Checkout(A, B, C, D) with App {
 
-  println(myCheckout.calculateTotalCost)
+  println("Checkout")
+
+  lazy val argsToSKUs: Map[String, SKU] = stockKeepingUnit.map(sku => (sku.toString, sku)).toMap
+
 }

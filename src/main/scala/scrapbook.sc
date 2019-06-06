@@ -41,3 +41,26 @@ val itemCost = numberOfEachItem.map(item => calculateItemCost(item._1, item._2)(
 val totalCost = itemCost.sum
 
 val totalCostPounds = BigDecimal(totalCost.toDouble / 100).setScale(2)
+
+
+val stockedItems: Seq[String] = Seq("A", "B", "C", "D")
+
+def parse(item: String): Either[String, Boolean] = {
+  if (stockedItems.contains(item)) {
+    Right(true)
+  } else {
+    Left(s"Unknown item in shopping basket: $item")
+  }
+
+}
+
+ def userInputValid(args: Array[String]): Boolean = {
+   for (item <- args) {
+     val result = parse(item)
+     if (result.isLeft) {
+       println(result.left.getOrElse("Exiting application!"))
+       System.exit(0)
+      }
+     }
+    true
+   }

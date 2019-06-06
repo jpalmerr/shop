@@ -2,10 +2,16 @@
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shop/A$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/student/Documents/Scala/ITV/target/scala-2.12/classes/shop/A$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shop/package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/student/Documents/Scala/ITV/target/scala-2.12/classes/shop/package$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shop/B$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/student/Documents/Scala/ITV/target/scala-2.12/classes/shop/B$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scrapbook.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/student/Documents/Scala/ITV/target/scala-2.12/classes/scrapbook.sc[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shop/A.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/student/Documents/Scala/ITV/target/scala-2.12/classes/shop/A.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shop/package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/student/Documents/Scala/ITV/target/scala-2.12/classes/shop/package.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shop/B.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/student/Documents/Scala/ITV/target/scala-2.12/classes/shop/B.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shop/C$.class[0m
