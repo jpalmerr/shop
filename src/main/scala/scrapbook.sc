@@ -29,9 +29,15 @@ val (quotient, remainder) = 11 /% 2
 
 def calculateItemCost(item: SKU, quantity: Int)(offer: (Int, Int)) :Int = {
   val (quotient, remainder) = quantity /% offer._1
-  println(s"quotient: $quotient , remainder: $remainder")
+//  println(s"quotient: $quotient , remainder: $remainder")
   val totalItemCost = quotient * offer._2 + remainder * item.unitPrice
   totalItemCost
 }
 
 calculateItemCost(A, 7)(3, 120) // 290
+
+val itemCost = numberOfEachItem.map(item => calculateItemCost(item._1, item._2)(specialPrice(item._1)))
+
+val totalCost = itemCost.sum
+
+val totalCostPounds = BigDecimal(totalCost.toDouble / 100).setScale(2)

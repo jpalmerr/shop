@@ -16,6 +16,15 @@ case class Checkout(shoppingBasket: Seq[SKU]) {
     totalItemCost
   }
 
+  def calculateTotalCost: BigDecimal = {
+    val numberOfEachItem = shoppingBasket.groupBy(identity).mapValues(_.size)
+
+    val itemsCost = numberOfEachItem.map(item => calculateItemCost(item._1, item._2)(specialPrice(item._1)))
+    val totalCost = itemsCost.sum
+    val totalCostPounds = BigDecimal(totalCost.toDouble / 100).setScale(2)
+    totalCostPounds
+  }
+
 }
 
 object Checkout extends App {

@@ -28,4 +28,12 @@ class CheckoutSpec extends WordSpec with Matchers {
       myCheckout.calculateItemCost(B, 1)(2, 45) should be(30)
     }
   }
+
+  "Calculate Total Cost" should {
+    "return an accurate value converted to pounds" in {
+      myCheckout.calculateTotalCost should be(4.55)
+      myCheckout.calculateTotalCost shouldBe a[BigDecimal]
+    }
+  }
+
 }
