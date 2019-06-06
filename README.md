@@ -1,4 +1,4 @@
-# Scala Tech Test Shop
+# Scala Tech Test: Shop
 
 ![spec](public/ShopTechTest.png)
 
@@ -26,6 +26,10 @@ src/test/scala/shop/CheckoutSpec.scala
 ![happycase](public/happyCaseBankTechtest.png)
 
 ![sadcase](public/sadCaseBankTechTest.png)
+
+## To Do
+
+User can change the special prices.
 
 ## Author
 
