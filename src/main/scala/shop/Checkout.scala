@@ -47,7 +47,10 @@ class Checkout(val stockKeepingUnit: SKU*) {
 
 }
 
-object Checkout extends Checkout(A, B, C, D) with App {
+
+object Checkout extends Checkout(
+  // items stocked in shop
+  A, B, C, D) with App {
 
   println("Checkout ...")
 

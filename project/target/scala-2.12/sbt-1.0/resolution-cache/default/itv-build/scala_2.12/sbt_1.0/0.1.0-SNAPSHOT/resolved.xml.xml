@@ -4,7 +4,7 @@
 		module="itv-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190606202836"
+		publication="20190607113935"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

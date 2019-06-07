@@ -2,7 +2,7 @@ package shop
 
 // stock keeping unit
 sealed trait SKU {
-  def unitPrice: Int
+  def unitPrice: Pence
 }
 
 case object A extends SKU {val unitPrice = 50}

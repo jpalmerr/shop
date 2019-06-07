@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0438b4f-4d9a-4417-a20b-58d2065378f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="d0438b4f-4d9a-4417-a20b-58d2065378f6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -75,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-85">
+              <first_editor relative-caret-position="90">
                 <caret line="6" column="88" selection-start-line="6" selection-start-column="88" selection-end-line="6" selection-end-column="88" />
               </first_editor>
               <second_editor />
@@ -350,7 +347,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559848564158</updated>
-      <workItem from="1559848568642" duration="12302000" />
+      <workItem from="1559848568642" duration="12472000" />
     </task>
     <servers />
   </component>
@@ -387,7 +384,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12302000" />
+    <option name="totallyTimeSpent" value="12472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -402,7 +399,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32876712" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -493,7 +490,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-85">
+          <first_editor relative-caret-position="90">
             <caret line="6" column="88" selection-start-line="6" selection-start-column="88" selection-end-line="6" selection-end-column="88" />
           </first_editor>
           <second_editor />

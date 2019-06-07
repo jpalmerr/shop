@@ -1,5 +1,7 @@
 target
-./project/target
+target/streams
+.target
+project/target
 *.class
 .DS_Store
 .idea
