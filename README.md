@@ -4,7 +4,7 @@
 
 ## How to run
 
-In Intellij, from the `sbt shell` input `run` with the names of the items.
+In Intellij, from the `sbt shell` input `run` with the names of the items in your basket.
 E.g.
 ```$xslt
 run A B B A C D A
