@@ -18,22 +18,19 @@ class Checkout(val stockKeepingUnit: SKU*) {
     totalItemCost
   }
 
-  def parse(item: String): Either[String, Boolean] = {
-    if (stockedItems.contains(item))
+  def parse(item: String): Either[(String, Boolean), Boolean] = {
+    if (stockedItems.contains(item)) {
       Right(true)
-    else
-      Left(s"Unknown item in shopping basket: ${item}")
+    } else {
+      Left((s"Unknown item in shopping basket: $item", false))
+    }
   }
 
   def isUserInputValid(args: Array[String]): Boolean = {
-    for (item <- args) {
-      val result = parse(item)
-      if (result.isLeft) {
-        println(result.left.getOrElse("Exiting application!"))
-        System.exit(0)
-      }
-    }
-    true
+    val results = args.map(arg => parse(arg))
+    val listLefts = results.filter(_ != Right(true))
+    listLefts.isEmpty
+//    results.exists(!_.isLeft)
   }
 
   def calculateTotalCost(items: Seq[SKU]): BigDecimal = {
@@ -61,6 +58,10 @@ object Checkout extends Checkout(
     val cost = calculateTotalCost(shoppingBasket)
 
     println(s"total cost of items in shopping basket: £$cost")
+  } else {
+    val errorList = args.map(arg => parse(arg)).toList
+    val listOfLefts = errorList.filter(_ != Right(true))
+    listOfLefts.foreach(println) // close as i can get to error message
   }
 
 }

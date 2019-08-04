@@ -30,7 +30,7 @@ class CheckoutSpec extends WordSpec with Matchers {
       userCheckout.parse("B") should be (Right(true))
       userCheckout.parse("C") should be (Right(true))
       userCheckout.parse("D") should be (Right(true))
-      userCheckout.parse("X") should be (Left("Unknown item in shopping basket: X"))
+      userCheckout.parse("X") should be (Left("Unknown item in shopping basket: X", false))
     }
   }
 
@@ -40,7 +40,7 @@ class CheckoutSpec extends WordSpec with Matchers {
       userCheckout.isUserInputValid(Array("B")) should be (true)
       userCheckout.isUserInputValid(Array("C")) should be (true)
       userCheckout.isUserInputValid(Array("D")) should be (true)
-//      userCheckout.isUserInputValid(Array("AA")) should be (false)
+      userCheckout.isUserInputValid(Array("AA")) should be (false)
     }
   }
 }
