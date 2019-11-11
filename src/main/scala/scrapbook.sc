@@ -116,5 +116,10 @@ listLefts.isEmpty
 
 val listOfLefts = results.filter(_ != Right(true))
 
+results match {
+  case Left(message) => println(message)
+  case Right _ =>
+}
+
 
 

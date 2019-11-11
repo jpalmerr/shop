@@ -26,11 +26,11 @@ class CheckoutSpec extends WordSpec with Matchers {
 
   "Parse item" should {
     "return a true for values stored" in {
-      userCheckout.parse("A") should be (Right(true))
-      userCheckout.parse("B") should be (Right(true))
-      userCheckout.parse("C") should be (Right(true))
-      userCheckout.parse("D") should be (Right(true))
-      userCheckout.parse("X") should be (Left("Unknown item in shopping basket: X", false))
+      userCheckout.parse("A") should be ("OK")
+      userCheckout.parse("B") should be ("OK")
+      userCheckout.parse("C") should be ("OK")
+      userCheckout.parse("D") should be ("OK")
+      userCheckout.parse("X") should be ("Unknown item in shopping basket: X")
     }
   }
 
