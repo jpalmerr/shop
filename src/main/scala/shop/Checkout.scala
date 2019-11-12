@@ -18,17 +18,17 @@ class Checkout(val stockKeepingUnit: SKU*) {
     totalItemCost
   }
 
-  def parse(item: String): String = {
+  def parse(item: String): Option [String] = {
     if (stockedItems.contains(item)) {
-      "OK" // not very type safe needs upgrade
+      None
     } else {
-      s"Unknown item in shopping basket: $item"
+      Some(s"Unknown item in shopping basket: $item")
     }
   }
 
   def isUserInputValid(args: Array[String]): Boolean = {
     val results = args.map(arg => parse(arg))
-    val listOfOks = results.filter(_ != "OK")
+    val listOfOks = results.flatten.toList
     listOfOks.isEmpty
   }
 
@@ -59,11 +59,8 @@ object Checkout extends Checkout(
     println(s"total cost of items in shopping basket: £$cost")
   } else {
 
-    val errorList = args.map(arg => parse(arg)).toList
+    args.flatMap(arg => parse(arg)).foreach(println)
 
-    val listOfErrors = errorList.filter(_ != "OK")
-
-    listOfErrors.foreach(println)
   }
 
 }
