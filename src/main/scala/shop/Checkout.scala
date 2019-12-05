@@ -1,6 +1,6 @@
 package shop
 
-class Checkout(val stockKeepingUnit: SKU*) {
+case class Checkout(stockKeepingUnit: SKU*) {
 
   val stockedItems: Seq[String] = stockKeepingUnit.map(_.toString)
 
