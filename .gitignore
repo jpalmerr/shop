@@ -9,14 +9,4 @@ project/target
 .metals
 project
 project/*
-.bloop/bloop.settings.json
-.bloop/shop-test.json
-.bloop/shop.json
-.bloop/shop/bloop-bsp-clients-classes/classes-Metals-8e5eYcCxRU-CAG9rhDh6SA==/META-INF/semanticdb/src/main/scala/shop/Checkout.scala.semanticdb
-.bloop/shop/bloop-bsp-clients-classes/classes-Metals-8e5eYcCxRU-CAG9rhDh6SA==/META-INF/semanticdb/src/main/scala/shop/package.scala.semanticdb
-.bloop/shop/bloop-bsp-clients-classes/classes-Metals-8e5eYcCxRU-CAG9rhDh6SA==/META-INF/semanticdb/src/main/scala/shop/SKU.scala.semanticdb
-.bloop/shop/bloop-bsp-clients-classes/test-classes-Metals-8e5eYcCxRU-CAG9rhDh6SA==/META-INF/semanticdb/src/test/scala/shop/CheckoutSpec.scala.semanticdb
-.bloop/shop/bloop-internal-classes/classes-Metals-8e5eYcCxRU-CAG9rhDh6SA==-P0UpN4SnTRuLsAautqgyZQ==/META-INF/semanticdb/src/main/scala/shop/Checkout.scala.semanticdb
-.bloop/shop/bloop-internal-classes/classes-Metals-8e5eYcCxRU-CAG9rhDh6SA==-P0UpN4SnTRuLsAautqgyZQ==/META-INF/semanticdb/src/main/scala/shop/package.scala.semanticdb
-.bloop/shop/bloop-internal-classes/classes-Metals-8e5eYcCxRU-CAG9rhDh6SA==-P0UpN4SnTRuLsAautqgyZQ==/META-INF/semanticdb/src/main/scala/shop/SKU.scala.semanticdb
-.bloop/shop/bloop-internal-classes/test-classes-Metals-8e5eYcCxRU-CAG9rhDh6SA==-qQrQh0vcQL6dMbjEjlWw0A==/META-INF/semanticdb/src/test/scala/shop/CheckoutSpec.scala.semanticdb
+.bloop/*
