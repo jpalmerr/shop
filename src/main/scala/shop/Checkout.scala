@@ -17,7 +17,7 @@ case class Checkout(stockKeepingUnit: SKU*) {
     quotient * offer._2 + remainder * item.unitPrice
   }
 
-  def parse(item: String): Option [String] = {
+  def parse(item: String): Option[String] = {
     if (stockedItems.contains(item)) {
       None
     } else {
@@ -26,9 +26,7 @@ case class Checkout(stockKeepingUnit: SKU*) {
   }
 
   def isUserInputValid(args: Array[String]): Boolean = {
-    val results = args.map(arg => parse(arg))
-    val listOfOks = results.flatten.toList
-    listOfOks.isEmpty
+    args.flatMap(arg => parse(arg)).isEmpty
   }
 
   def calculateTotalCost(items: Seq[SKU]): BigDecimal = {
