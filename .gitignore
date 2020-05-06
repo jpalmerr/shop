@@ -5,3 +5,6 @@ project/target
 *.class
 .DS_Store
 .idea
+.bloop
+.idea
+.metals
