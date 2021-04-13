@@ -26,7 +26,7 @@ case class Checkout(stockKeepingUnit: SKU*) {
   }
 
   def isUserInputValid(args: Array[String]): Boolean = {
-    args.flatMap(arg => parse(arg)).isEmpty
+    args.flatMap(parse).isEmpty
   }
 
   def calculateTotalCost(items: Seq[SKU]): BigDecimal = {
@@ -56,7 +56,7 @@ object Checkout extends Checkout(
     println(s"total cost of items in shopping basket: £$cost")
   } else {
 
-    args.flatMap(arg => parse(arg)).foreach(println)
+    args.flatMap(parse).foreach(println)
 
   }
 
